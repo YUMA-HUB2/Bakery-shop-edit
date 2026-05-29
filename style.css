@@ -1,0 +1,61 @@
+h1 { 
+    text-align: center;
+    color: aqua;
+        
+}
+ header{
+    background-color: #0056b3;
+    padding: 1em;
+    color: white;
+    text-align: center;
+ }
+ a:hover {
+     color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+ }
+p {
+    text-align: center;
+    color: rgba(7, 7, 7, 0.966);
+
+}
+
+
+
+body {
+    height: 100vh;
+    background-size:cover;
+    background-image: url("image/logo.png");
+    }
+ h2 {
+    text-align: start;
+    color: rgba(7, 7, 7, 0.966);
+ } 
+ .buton {
+    padding: 9px 25px;
+    background-color: aqua;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer ;
+    transition: all 0.3s ease 0s;
+    list-style: none;
+  } 
+  footer{
+  margin-top: auto;
+    min-height: 7%;
+    display: grid;
+    grid-template-rows: auto ;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: #24439e;
+     position: static;
+ }
+ body {
+    margin: 0;
+    padding: 0;
+    background-image: url("image/background.jpg"); /* Path to your image */
+    background-size: cover;                  /* Scale image to cover the screen */
+    background-position: center;             /* Center the image */
+    background-repeat: no-repeat;            /* Prevent tiling */
+}
+ 
